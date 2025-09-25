@@ -665,4 +665,4 @@ def post_add(request):
         print("method GET")
     return render(request, 'post_add.html')
 
-- 확인. 이미지 포함 글작성해보기. 
+- 확인. 이미지 포함 글작성해보기.

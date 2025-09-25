@@ -228,4 +228,3 @@ class PostAdmin(admin.ModelAdmin):
     </div>
 </body>
 </html>
-

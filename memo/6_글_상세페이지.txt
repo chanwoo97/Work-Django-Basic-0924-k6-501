@@ -307,4 +307,4 @@ templates/post_detail.html
 
 - 작업 확인. 
 http://localhost:8000/posts/
-여기서 제목 클릭시 , 해당 상세페이지 이동 
+여기서 제목 클릭시 , 해당 상세페이지 이동
