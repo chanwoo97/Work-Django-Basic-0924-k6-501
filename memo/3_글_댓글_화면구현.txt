@@ -77,13 +77,13 @@ templates/post_list.html
 - Django ORM을 사용한 1:N 객체 접근 
 
 - 인터프리터에서 기능 실습 
-- python manage.py shell 
+- python manage.py shell
 - 접속 
 
 N -> 1 로 접근, 자식 -> 부모
 from blog.models import Post, Comment
 first_comment = Comment.objects.first()
-first_comment.post 
+first_comment.post
 
 
 - Comment는 자신의 post 속성으로 연결된 Post 객체에 접근 가능 

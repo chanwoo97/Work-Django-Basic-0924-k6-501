@@ -543,7 +543,7 @@ from blog.models import Post, Comment
             post=post,
             content=comment_content
         )
-		
+
 예)
 def post_detail(request,post_id):
     post = Post.objects.get(id=post_id)
